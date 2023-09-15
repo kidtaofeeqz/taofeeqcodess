@@ -1,0 +1,276 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    margin: 0px;
+    background: lightblue;
+
+}
+
+.lost{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.548);
+    margin-top: 500px;
+    flex-direction: column;
+    display: none;
+}
+
+.div-3{
+    margin-top: 10px;
+    display: flex;
+}
+
+.btn-2{
+    border: none;
+    color: white;
+    background: lightgreen;
+    height: 40px;
+    margin-left: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.lost a {
+    font-weight: bold;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.header{
+    width: 100%;
+    background: gray;
+    padding: 10px 0px;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.section-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightsalmon;
+    height: 300px;
+}
+
+.section-2{
+    position: absolute;
+    margin-top: 230px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 400px;
+    border: 2px solid lightgreen;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+
+}
+
+
+.text-1{
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    color: gray;
+
+
+}
+
+.response{
+    outline: none;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    height: 50px;
+    min-width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+
+.send{
+    height: 50px;
+    border: none;
+    color: white;
+    background: lightgreen;
+    width: 100px;
+}
+
+.question{
+    font-size: 20px;
+    font-weight: bold;
+    color: lightgreen;
+
+}
+
+.btn-1{
+    margin-left: 20px;
+    padding: 7px 30px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background: lightgreen;
+    color: white;
+
+}
+
+
+@media screen and (max-width: 855px)
+{
+    body{
+        margin: 0px;
+        background: lightblue;
+    
+    }
+    
+    .lost{
+        position: fixed;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        background: rgba(0, 0, 0, 0.548);
+        margin-top: 500px;
+        flex-direction: column;
+        display: none;
+    }
+    
+    .div-3{
+        margin-top: 10px;
+        display: flex;
+    }
+    
+    .btn-2{
+        border: none;
+        color: white;
+        background: lightgreen;
+        height: 40px;
+        margin-left: 10px;
+        width: 100px;
+        border-radius: 5px;
+    }
+    
+    .lost a {
+        font-weight: bold;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+    
+    .header{
+        width: 100%;
+        background: gray;
+        padding: 10px 0px;
+    }
+    
+    .main{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    .section-1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: lightsalmon;
+        height: 300px;
+    }
+    
+    .section-2{
+        position: absolute;
+        margin-top: 230px;
+        padding: 10px 20px;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        height: 400px;
+        border: 2px solid lightgreen;
+        background-color: white;
+        border-radius: 10px;
+        flex-direction: column;
+    
+    }
+    
+    
+    .text-1{
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+        
+    }
+    
+    .heading{
+        font-size: 30px;
+        font-weight: bold;
+        color: gray;
+    
+    
+    }
+    
+    .response{
+        outline: none;
+        border: 1px solid lightblue;
+        border-radius: 5px;
+        height: 50px;
+        min-width: 150px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 40px;
+    }
+    
+    .send{
+        height: 50px;
+        border: none;
+        color: white;
+        background: lightgreen;
+        width: 100px;
+    }
+    
+    .question{
+        font-size: 20px;
+        font-weight: bold;
+        color: lightgreen;
+    
+    }
+    
+    .btn-1{
+        margin-left: 20px;
+        padding: 7px 30px;
+        border: none;
+        outline: none;
+        font-size: 13px;
+        background: lightgreen;
+        color: white;
+    
+    }
+    
+}
+

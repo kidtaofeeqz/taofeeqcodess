@@ -1,0 +1,914 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: white;
+
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    right: 0px;
+    left: 0px;
+    height: 80px;
+    width: 100%;
+    background: #547fa1;
+    border: 2px solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.left-path{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 20px;
+    cursor: pointer;
+    
+}
+
+.right-path{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 20px;
+    cursor: pointer;
+    
+}
+
+.side-bar{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 370px;
+    align-items: flex-end;
+    
+}
+
+.cancel{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.cancel a{
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.div-1{
+    width: 100%;
+    height: 500px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    
+}
+
+.div-2{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.829);
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.div-3{
+    background: #547fa1;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin-right: 0px;
+    border: 2px solid white;
+    height: 100%;
+    padding-bottom: 60px;
+    padding-top: 20px;
+
+    
+
+    
+
+}
+
+.div-4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+
+}
+
+.div-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 7px;
+}
+
+.div-6{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    flex-direction: column;
+    
+
+}
+
+.div-7{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.div-8{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    border: 2px dotted black;
+    height: 350px;
+    top: 0px;
+    bottom: 0px;
+    margin-top: 35px;
+    align-items: center;
+    padding: 5px 10px;
+
+}
+
+
+
+.div-9{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.div-10{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+    
+    
+}
+
+.div-11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #272727dc;
+    padding-top: 40px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    border: 4px solid lightgreen;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.div-12-1{
+    margin-top: 50px;
+}
+
+.div-13{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.div-14{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.div-15{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-16{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #547fa1;
+    padding-top: 20px;
+    flex-direction: column;
+    
+
+}
+
+
+.div-17{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    border: 2px dotted lightgreen;
+    padding: 10px 20px;
+    flex-direction: column;
+    width: 100%;
+    
+
+}
+
+.div-18{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    margin-top: 30px;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+
+
+.div-19{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    flex-direction: column-reverse;
+
+}
+
+.div-20{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.div-21{
+    height: 90px;
+    background: rgba(0, 0, 0, 0.548);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 15px ;
+    border: 2px solid lightgreen;
+}
+
+.div-22{
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    background: black;
+    width: 100%;
+
+}
+
+.div-23{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dotted lightgreen;
+}
+
+
+.div-24{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    
+
+}
+
+.div-24 img{
+    width: 40px;
+}
+
+
+.icon-1{
+    width: 60px;
+    border: 2px solid white;
+    height: 60px;
+    border-radius: 60px;
+}
+
+.icon-2{
+    width: 70px;
+}
+
+.icon-3{
+    width: 85px;
+}
+
+.png-1{
+    width: 100%;
+    height: 500px;
+}
+
+.png-2{
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 20PX;
+    
+}
+
+.png-3{
+    width: 50%;
+    height: 380px;
+
+}
+
+.text-1{
+    font-size: 27px;
+    font-weight: bolder;
+    padding-left: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.text-2{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    padding-left: 20px;
+}
+
+.text-3{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.text-4{
+    color: white;
+    padding-top: 5;
+    text-decoration: underline 2px solid lightgreen;
+
+}
+
+
+.text-5{
+    color: white;
+    padding-top: 5;
+    text-decoration: underline 2px solid red;
+
+}
+
+.text-6{
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    text-decoration: underline 2px solid lightgreen;
+}
+
+.text-7{
+    color: #547fa1;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.text-8{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid lightgreen;
+}
+
+.text-9{
+    font-size: 17px;
+    padding-top: 20px;
+    padding-left: 10px;
+    text-decoration: underline solid lightgreen;
+}
+
+.text-10{
+    color: white;
+    padding-top: 5;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.text-11{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline 3px solid lightgreen;
+}
+
+.text-12{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-13{
+    color: white;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;
+     font-weight: bold;
+}
+
+.text-14{
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    font-size: 18px;
+
+}
+
+.text-14 span {
+    font-size: 20px;
+    color: lightgreen;
+}
+
+.text-15{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.text-15 span{
+    color: lightgreen;
+}
+
+.text-16{
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+.span-1{
+    color: lightgreen;
+    text-decoration: underline solid white;
+}
+
+.span-2{
+    color: lightgreen;
+    text-decoration: underline solid white;
+}
+
+.span-3{
+    color: lightgreen;
+    font-size: 20px;
+}
+
+.span-4{
+    color: lightgreen;
+    text-decoration: underline 2px solid white;
+}
+
+.btn-1{
+    padding: 7px 20px;
+    color: white;
+    background: lightgreen;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.btn-1:hover{
+ opacity: 95%;
+}
+
+.btn-1:active{
+  opacity: 90%;
+}
+
+.btn-2{
+    padding: 7px 20px;
+    color: lightgreen;
+    background: white;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.btn-2:hover{
+    opacity: 95%;
+   }
+   
+.btn-2:active{
+     opacity: 90%;
+   }
+
+.btn-3{
+    padding: 7px 20px;
+    color: white;
+    background: lightgreen;
+    border-radius: 2px;
+    border: none;
+    display: none;
+    cursor: pointer;
+    font-size: 17px;
+
+}
+
+.btn-3:hover{
+    opacity: 95%;
+   }
+   
+.btn-3:active{
+     opacity: 90%;
+   }
+
+    .btn-4{
+    padding: 7px 20px;
+    color: white;
+    background: lightgreen;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.btn-4:hover{
+ opacity: 95%;
+}
+
+.btn-4:active{
+  opacity: 90%;
+}
+
+.btn-4-1{
+    padding: 7px 20px;
+    color: white;
+    background: lightgreen;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 19px;
+
+}
+
+.btn-4:hover{
+ opacity: 95%;
+}
+
+.btn-4:active{
+  opacity: 90%;
+}
+
+
+.btn-5{
+    padding: 7px 20px;
+    color: lightgreen;
+    background: white;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.btn-5:hover{
+    opacity: 95%;
+   }
+   
+.btn-5:active{
+     opacity: 90%;
+   
+    }
+
+    
+    .btn-5-1:hover{
+        opacity: 95%;
+       }
+       
+    .btn-5-1:active{
+         opacity: 90%;
+       }
+
+   .btn-6{
+    padding: 7px 20px;
+    color: white;
+    background: lightgreen;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.btn-6:hover{
+    opacity: 95%;
+   }
+   
+.btn-6:active{
+     opacity: 90%;
+   }
+
+   .btn-7{
+    padding: 7px 20px;
+    color: white;
+    background: lightgreen;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+
+}
+
+.btn-7:hover{
+    opacity: 95%;
+   }
+   
+.btn-7:active{
+     opacity: 90%;
+   }
+
+   .btn-8{
+    padding: 7px 20px;
+    color: rgb(158, 158, 158);
+    background: gray;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+
+}
+
+
+@media screen and (max-width: 855px)
+{
+.header{
+    height: 110px;
+    right: 0px;
+    left: 0px;
+
+}
+
+.left-path{
+    padding-left: 10px;
+    
+}
+
+.div-6{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.div-7{
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.div-8{
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.div-9{
+    border-right: 0px;
+    border: 2px dotted black;
+    padding: 10px 5px;
+    width: 100%;
+    padding-right: 0px;
+
+    
+}
+
+.div-10{
+    border-right: 0px;
+    border: 2px dotted black;
+    padding: 10px 5px;
+    width: 100%;
+}
+
+.div-16{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-17{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    border: 2px dotted lightgreen;
+    padding: 10px 20px;
+    flex-direction: column;
+}
+
+.div-18{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.div-20{
+    position: absolute;
+    display: flex;
+    align-items: end;
+    height: 380px;
+    width: 100%;
+
+}
+
+.div-21{
+    margin-bottom: 10px;
+}
+
+
+
+
+.text-1{
+    font-size: 20px;
+    padding-left: 10px;
+    
+    
+}
+
+.text-2{
+    font-size: 40px;
+}
+
+.text-7{
+    font-size: 20px;
+}
+
+.text-8{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    border: 2px solid lightgreen;
+}
+
+.text-9{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.text-11{
+    font-size: 20px;
+}
+
+.text-12{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-13{
+    color: white;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;
+     font-weight: bold;
+}
+
+.text-14{
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    font-size: 18.5px;
+    margin-left: 10px;
+
+}
+
+
+
+.btn-1{
+    display: none;
+}
+
+.btn-2{
+    display: none;
+}
+
+.btn-3{
+    display: flex;
+}
+
+
+.png-2{
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+.png-3{
+    width: 100%;
+
+}
+
+.btn-6{
+    font-size: 17px;
+}
+
+.btn-7{
+    width: 100%;
+    font-size: 20px;
+}
+
+.btn-8{
+    width: 100%;
+    font-size: 20px;
+}
+
+
+.btn-5-1{
+    padding: 7px 20px;
+    display: flex;
+    color: lightgreen;
+    background: white;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 19px;
+
+}
+
+}
