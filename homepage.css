@@ -149,6 +149,28 @@ body{
 
 }
 
+.div-7{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.div-8{
+    width: 100%;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.788);
+    position: absolute;
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    flex-direction: row;
+
+    
+}
+
 .line-1{
     height: 10px;
     width: 100px;
@@ -193,6 +215,11 @@ body{
 .png-1{
     width: 100%;
     height: 500px;
+}
+
+.png-2{
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -242,6 +269,28 @@ body{
     padding-bottom: 10px;
     border-bottom: 2px solid red;
  
+
+}
+
+.text-6{
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.text-7{
+    color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: start;
+    border-bottom: 2px solid lightgreen;
+    padding-bottom: 20px;
+    
+
 
 }
 
@@ -408,6 +457,13 @@ body{
     
 }
 
+.div-8{
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+
+}
+
 
 .text-1{
     font-size: 20px;
@@ -486,16 +542,6 @@ body{
 }
 
 
-.png-2{
-    width: 300px;
-    border-radius: 10px;
-    
-}
-
-.png-3{
-    width: 100%;
-
-}
 
 .btn-6{
     font-size: 17px;
