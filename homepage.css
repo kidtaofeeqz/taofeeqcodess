@@ -161,7 +161,7 @@ body{
 .div-8{
     width: 100%;
     height: 500px;
-    background: rgba(0, 0, 0, 0.219);
+    background: rgba(0, 0, 0, 0.562);
     position: absolute;
     display: flex;
     align-items: self-start;
@@ -173,7 +173,7 @@ body{
 
 .line-1{
     height: 10px;
-    width: 100px;
+    width: 150px;
     border: 1px solid white;
     background: lightgreen;
     border-right: 0px;
@@ -185,7 +185,7 @@ body{
 
 .line-2{
     height: 10px;
-    width: 100px;
+    width: 50px;
     border: 1px solid white;
     background: darkblue;
     border-left: 0px;
