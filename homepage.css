@@ -48,6 +48,7 @@ body{
     
 }
 
+
 .side-bar{
     display: none;
     align-items: center;
@@ -57,6 +58,8 @@ body{
     width: 100%;
     height: 370px;
     align-items: flex-end;
+    padding-bottom: 10px;
+   
     
 }
 
@@ -114,12 +117,19 @@ body{
     padding-bottom: 60px;
     padding-top: 20px;
     border-top: 0px;
-
-    
-
-    
-
+    animation: slidetop 2s ease-in;
 }
+
+@keyframes slidetop {
+    from {
+        transform: translatex(250px);
+    }
+
+    to {
+        transform: translatex(0);
+    }
+}
+
 
 .div-4{
     display: flex;
@@ -162,7 +172,7 @@ body{
 .div-8{
     width: 100%;
     height: 500px;
-    background: rgba(0, 0, 0, 0.562);
+    background: rgba(0, 0, 0, 0.692);
     position: absolute;
     display: flex;
     align-items: self-start;
@@ -247,13 +257,16 @@ body{
 }
 
 
+
+
+
 .text-2{
     color: white;
     font-weight: bold;
     font-size: 50px;
     padding-left: 20px;
     padding-bottom: 10px;
-    animation: slideleft 1s ease-in;
+    animation: slideleft 1.5s ease-in;
   
     
 }
@@ -377,11 +390,11 @@ body{
 }
 
 .btn-3:hover{
-    opacity: 95%;
+    opacity: 70%;
    }
    
 .btn-3:active{
-     opacity: 90%;
+     opacity: 60%;
    }
 
     .btn-4{
